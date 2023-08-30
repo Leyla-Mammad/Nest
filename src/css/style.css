@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+padding: 20px;;
+}
+.search{
+    border-color: aquamarine;
+    margin: 0 150px;
+    padding: 15px 350px 15px 0;
+}
+.menu{
+    color: rgb(55, 55, 55);
+margin: 10px;
+    text-decoration: none;
+}
+.btn1{
+    background-color: #3bb77e;
+    border: none;
+    padding: 15px;
+    border-radius: 7px;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    
+}
+.txt{
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(96, 95, 95);
+    font-size: larger;
+}
+.homeimage{
+    width: 93%;
+    height: 500px;
+background-image: url("../img/slider-2.png");
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 30px;
+}
+.imageh3{
+    padding: 70px 70px 0 0;
+    font-size: 80px;
+    color: rgb(55, 55, 55);
+}
+
+.imageh4{
+   margin-top: -50px;
+    font-size: 30px;
+    color: rgb(105, 104, 104);
+}
+.three{
+    width: 97%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.everyday{ 
+    width: 30%; 
+    padding: 50px;
+    height: 230px;
+    background-image: url("../img/banner-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.Make{ 
+    width: 30%; 
+    padding: 50px;
+    height: 230px;
+    background-image: url("../img/banner-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.The{ 
+    width: 30%; 
+    padding: 50px;
+    height: 230px;
+    background-image: url("../img/banner-3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.btn:hover{
+transition: 0.8;
+}
+.products{
+display: flex;
+margin-left: 20px;
+
+}
+
+.products1{
+
+    text-decoration: none;
+    padding-top: 40px;
+    color: black;
+    font-size: large;
+    margin: 10px;
+    padding-left: 50px;
+    
+}
+.cart{width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.card{
+    width: 18%;
+    border: 1px solid #b5b5b4;
+    border-radius: 20px;
+}
+.card img{
+    width: 100%;
+}
